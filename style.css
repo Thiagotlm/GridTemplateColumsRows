@@ -1,0 +1,36 @@
+
+/*utilizando grid template rows e colums*/
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+    display:grid;  
+    grid-template-columns: 100px repeat(3, 1fr) 100px; 
+    grid-template-rows: repeat(2, 1fr);
+    background: yellow; 
+}
+.item {
+    border: 1px solid black;
+}
+.item-01 {
+    background: palevioletred;
+}
+.item-02 {
+    background: cornflowerblue;
+}
+.item-03 {
+    background: palegreen;
+}
+.item-04 {
+    background: orange;
+}
+.item-05 {
+    background: cadetblue;
+}
+.item-06 {
+    background: aqua;
+}
+.item-07 {
+    background: lightpink;
+}
